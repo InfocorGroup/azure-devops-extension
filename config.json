@@ -1,0 +1,77 @@
+{
+  "global": {
+    "enableAreaConfiguration": true,
+    "defaultMappings": {
+      "Request EN": "Internal\\ClientTasks",
+      "Bug": "Internal\\BugTasks",
+      "User Story": "Internal\\StoryTasks",
+      "Issue": "Internal\\ClientTasks",
+      "Requirement": "Internal\\StoryTasks"
+    }
+  },
+  "projects": [
+    {
+      "projectName": "Proyecto1",
+      "projectId": "proyecto-1-id",
+      "isActive": true,
+      "areaMappings": {
+        "Bug": {
+          "sourceArea": "Client\\Bugs",
+          "targetArea": "Proyecto1\\Area1"
+        },
+        "Request EN": {
+          "sourceArea": "Client\\Requests",
+          "targetArea": "Proyecto1\\Area2"
+        },
+        "User Story": {
+          "sourceArea": "Client\\Stories",
+          "targetArea": "Proyecto1\\Area3"
+        }
+      },
+      "defaultArea": "Proyecto1\\Default"
+    },
+    {
+      "projectName": "Proyecto2",
+      "projectId": "proyecto-2-id",
+      "isActive": true,
+      "areaMappings": {
+        "Bug": {
+          "sourceArea": "Client\\Bugs",
+          "targetArea": "Proyecto2\\BugFixes"
+        },
+        "Request EN": {
+          "sourceArea": "Client\\Requests",
+          "targetArea": "Proyecto2\\Support"
+        },
+        "Issue": {
+          "sourceArea": "Client\\Issues",
+          "targetArea": "Proyecto2\\Investigation"
+        }
+      },
+      "defaultArea": "Proyecto2\\General"
+    },
+    {
+      "projectName": "Proyecto3",
+      "projectId": "proyecto-3-id",
+      "isActive": true,
+      "areaMappings": {
+        "User Story": {
+          "sourceArea": "Client\\Stories",
+          "targetArea": "Proyecto3\\Development"
+        },
+        "Requirement": {
+          "sourceArea": "Client\\Requirements",
+          "targetArea": "Proyecto3\\Analysis"
+        }
+      },
+      "defaultArea": "Proyecto3\\Tasks"
+    },
+    {
+      "projectName": "Proyecto4",
+      "projectId": "proyecto-4-id",
+      "isActive": false,
+      "areaMappings": {},
+      "defaultArea": "Proyecto4\\Default"
+    }
+  ]
+}
