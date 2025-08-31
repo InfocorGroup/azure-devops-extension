@@ -2,76 +2,119 @@
   "global": {
     "enableAreaConfiguration": true,
     "defaultMappings": {
-      "Request EN": "Internal\\ClientTasks",
-      "Bug": "Internal\\BugTasks",
-      "User Story": "Internal\\StoryTasks",
-      "Issue": "Internal\\ClientTasks",
-      "Requirement": "Internal\\StoryTasks"
+      "Bug": "Internal\\BugTasks"
     }
   },
   "projects": [
     {
-      "projectName": "Proyecto1",
-      "projectId": "proyecto-1-id",
+      "projectName": "CO_BancoAgrario_ICB",
       "isActive": true,
       "areaMappings": {
         "Bug": {
           "sourceArea": "Client\\Bugs",
-          "targetArea": "Proyecto1\\Area1"
-        },
-        "Request EN": {
-          "sourceArea": "Client\\Requests",
-          "targetArea": "Proyecto1\\Area2"
-        },
-        "User Story": {
-          "sourceArea": "Client\\Stories",
-          "targetArea": "Proyecto1\\Area3"
+          "targetArea": "CO_BancoAgrario_ICB\\Internal\\BugTasks"
         }
-      },
-      "defaultArea": "Proyecto1\\Default"
+      }
     },
     {
-      "projectName": "Proyecto2",
-      "projectId": "proyecto-2-id",
+      "projectName": "CO_CajaSocial_ICB7",
       "isActive": true,
       "areaMappings": {
         "Bug": {
           "sourceArea": "Client\\Bugs",
-          "targetArea": "Proyecto2\\BugFixes"
-        },
-        "Request EN": {
-          "sourceArea": "Client\\Requests",
-          "targetArea": "Proyecto2\\Support"
-        },
-        "Issue": {
-          "sourceArea": "Client\\Issues",
-          "targetArea": "Proyecto2\\Investigation"
+          "targetArea": "CO_CajaSocial_ICB7\\Internal\\BugTasks"
         }
-      },
-      "defaultArea": "Proyecto2\\General"
+      }
     },
     {
-      "projectName": "Proyecto3",
-      "projectId": "proyecto-3-id",
+      "projectName": "Data Platform",
       "isActive": true,
       "areaMappings": {
-        "User Story": {
-          "sourceArea": "Client\\Stories",
-          "targetArea": "Proyecto3\\Development"
-        },
-        "Requirement": {
-          "sourceArea": "Client\\Requirements",
-          "targetArea": "Proyecto3\\Analysis"
+        "Bug": {
+          "sourceArea": "Client\\Bugs",
+          "targetArea": "Data Platform\\Internal\\BugTasks"
         }
-      },
-      "defaultArea": "Proyecto3\\Tasks"
+      }
     },
     {
-      "projectName": "Proyecto4",
-      "projectId": "proyecto-4-id",
-      "isActive": false,
-      "areaMappings": {},
-      "defaultArea": "Proyecto4\\Default"
+      "projectName": "ICBanking",
+      "isActive": true,
+      "areaMappings": {
+        "Bug": {
+          "sourceArea": "Client\\Bugs",
+          "targetArea": "ICBanking\\Internal\\BugTasks"
+        }
+      }
+    },
+    {
+      "projectName": "Infra-Proyects",
+      "isActive": true,
+      "areaMappings": {
+        "Bug": {
+          "sourceArea": "Client\\Bugs",
+          "targetArea": "Infra-Proyects\\Internal\\BugTasks"
+        }
+      }
+    },
+    {
+      "projectName": "Operativa Interna",
+      "isActive": true,
+      "areaMappings": {
+        "Bug": {
+          "sourceArea": "Client\\Bugs",
+          "targetArea": "Operativa Interna\\Internal\\BugTasks"
+        }
+      }
+    },
+    {
+      "projectName": "PA_Aliado_ICB",
+      "isActive": true,
+      "areaMappings": {
+        "Bug": {
+          "sourceArea": "Client\\Bugs",
+          "targetArea": "PA_Aliado_ICB\\Internal\\BugTasks"
+        }
+      }
+    },
+    {
+      "projectName": "PA_Towerbank_ICB",
+      "isActive": true,
+      "areaMappings": {
+        "Bug": {
+          "sourceArea": "Client\\Bugs",
+          "targetArea": "PA_Towerbank_ICB\\Internal\\BugTasks"
+        }
+      }
+    },
+    {
+      "projectName": "PR_FirstBank_ICB",
+      "isActive": true,
+      "areaMappings": {
+        "Bug": {
+          "sourceArea": "Client\\Bugs",
+          "targetArea": "PR_FirstBank_ICB\\Internal\\BugTasks"
+        }
+      }
+    },
+    {
+      "projectName": "TT_RepublicBank_ICB",
+      "isActive": true,
+      "areaMappings": {
+        "Bug": {
+          "sourceArea": "Client\\Bugs",
+          "targetArea": "TT_RepublicBank_ICB\\Internal\\BugTasks"
+        }
+      }
+    },
+    {
+      "projectName": "UY_Sistemas_Internos",
+      "isActive": true,
+      "areaMappings": {
+        "Bug": {
+          "sourceArea": "Client\\Bugs",
+          "targetArea": "UY_Sistemas_Internos\\Internal\\BugTasks"
+        }
+      }
     }
   ]
-}
+} 
