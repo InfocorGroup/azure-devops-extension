@@ -12,7 +12,7 @@
       "areaMappings": {
         "Bug": {
           "sourceArea": "Client/Bugs",
-          "targetArea": "CO_BancoAgrario_ICB/Internal/BugTasks"
+          "targetArea": "Internal/BugTasks"
         }
       }
     },
@@ -22,7 +22,7 @@
       "areaMappings": {
         "Bug": {
           "sourceArea": "Client/Bugs",
-          "targetArea": "CO_CajaSocial_ICB7/Internal/BugTasks"
+          "targetArea": "Internal/BugTasks"
         }
       }
     },
@@ -32,7 +32,7 @@
       "areaMappings": {
         "Bug": {
           "sourceArea": "Client/Bugs",
-          "targetArea": "Data Platform/Internal/BugTasks"
+          "targetArea": "Internal/BugTasks"
         }
       }
     },
@@ -42,7 +42,7 @@
       "areaMappings": {
         "Bug": {
           "sourceArea": "Client/Bugs",
-          "targetArea": "ICBanking/Internal/BugTasks"
+          "targetArea": "Internal/BugTasks"
         }
       }
     },
@@ -52,7 +52,7 @@
       "areaMappings": {
         "Bug": {
           "sourceArea": "Client/Bugs",
-          "targetArea": "Infra-Proyects/Internal/BugTasks"
+          "targetArea": "Internal/BugTasks"
         }
       }
     },
@@ -62,7 +62,7 @@
       "areaMappings": {
         "Bug": {
           "sourceArea": "Client/Bugs",
-          "targetArea": "Operativa Interna/Internal/BugTasks"
+          "targetArea": "Internal/BugTasks"
         }
       }
     },
@@ -72,7 +72,7 @@
       "areaMappings": {
         "Bug": {
           "sourceArea": "Client/Bugs",
-          "targetArea": "PA_Aliado_ICB/Internal/BugTasks"
+          "targetArea": "Internal/BugTasks"
         }
       }
     },
@@ -82,7 +82,7 @@
       "areaMappings": {
         "Bug": {
           "sourceArea": "Client/Bugs",
-          "targetArea": "PA_Towerbank_ICB/Internal/BugTasks"
+          "targetArea": "Internal/BugTasks"
         }
       }
     },
@@ -92,7 +92,7 @@
       "areaMappings": {
         "Bug": {
           "sourceArea": "Client/Bugs",
-          "targetArea": "PR_FirstBank_ICB/Internal/BugTasks"
+          "targetArea": "Internal/BugTasks"
         }
       }
     },
@@ -102,7 +102,7 @@
       "areaMappings": {
         "Bug": {
           "sourceArea": "Client/Bugs",
-          "targetArea": "TT_RepublicBank_ICB/Internal/BugTasks"
+          "targetArea": "Internal/BugTasks"
         }
       }
     },
@@ -112,7 +112,7 @@
       "areaMappings": {
         "Bug": {
           "sourceArea": "Client/Bugs",
-          "targetArea": "UY_Sistemas_Internos/Internal/BugTasks"
+          "targetArea": "Internal/BugTasks"
         }
       }
     },
@@ -122,7 +122,7 @@
       "areaMappings": {
         "Bug": {
           "sourceArea": "Client/Bugs",
-          "targetArea": "Test Extension/Internal/BugTasks"
+          "targetArea": "Internal/BugTasks"
         }
       }
     }
