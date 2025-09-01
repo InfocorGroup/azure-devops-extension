@@ -2,7 +2,7 @@
   "global": {
     "enableAreaConfiguration": true,
     "defaultMappings": {
-      "Bug": "Internal\\BugTasks"
+      "Bug": "Internal/BugTasks"
     }
   },
   "projects": [
@@ -11,8 +11,8 @@
       "isActive": true,
       "areaMappings": {
         "Bug": {
-          "sourceArea": "Client\\Bugs",
-          "targetArea": "CO_BancoAgrario_ICB\\Internal\\BugTasks"
+          "sourceArea": "Client/Bugs",
+          "targetArea": "CO_BancoAgrario_ICB/Internal/BugTasks"
         }
       }
     },
@@ -21,8 +21,8 @@
       "isActive": true,
       "areaMappings": {
         "Bug": {
-          "sourceArea": "Client\\Bugs",
-          "targetArea": "CO_CajaSocial_ICB7\\Internal\\BugTasks"
+          "sourceArea": "Client/Bugs",
+          "targetArea": "CO_CajaSocial_ICB7/Internal/BugTasks"
         }
       }
     },
@@ -31,8 +31,8 @@
       "isActive": true,
       "areaMappings": {
         "Bug": {
-          "sourceArea": "Client\\Bugs",
-          "targetArea": "Data Platform\\Internal\\BugTasks"
+          "sourceArea": "Client/Bugs",
+          "targetArea": "Data Platform/Internal/BugTasks"
         }
       }
     },
@@ -41,8 +41,8 @@
       "isActive": true,
       "areaMappings": {
         "Bug": {
-          "sourceArea": "Client\\Bugs",
-          "targetArea": "ICBanking\\Internal\\BugTasks"
+          "sourceArea": "Client/Bugs",
+          "targetArea": "ICBanking/Internal/BugTasks"
         }
       }
     },
@@ -51,8 +51,8 @@
       "isActive": true,
       "areaMappings": {
         "Bug": {
-          "sourceArea": "Client\\Bugs",
-          "targetArea": "Infra-Proyects\\Internal\\BugTasks"
+          "sourceArea": "Client/Bugs",
+          "targetArea": "Infra-Proyects/Internal/BugTasks"
         }
       }
     },
@@ -61,8 +61,8 @@
       "isActive": true,
       "areaMappings": {
         "Bug": {
-          "sourceArea": "Client\\Bugs",
-          "targetArea": "Operativa Interna\\Internal\\BugTasks"
+          "sourceArea": "Client/Bugs",
+          "targetArea": "Operativa Interna/Internal/BugTasks"
         }
       }
     },
@@ -71,8 +71,8 @@
       "isActive": true,
       "areaMappings": {
         "Bug": {
-          "sourceArea": "Client\\Bugs",
-          "targetArea": "PA_Aliado_ICB\\Internal\\BugTasks"
+          "sourceArea": "Client/Bugs",
+          "targetArea": "PA_Aliado_ICB/Internal/BugTasks"
         }
       }
     },
@@ -81,8 +81,8 @@
       "isActive": true,
       "areaMappings": {
         "Bug": {
-          "sourceArea": "Client\\Bugs",
-          "targetArea": "PA_Towerbank_ICB\\Internal\\BugTasks"
+          "sourceArea": "Client/Bugs",
+          "targetArea": "PA_Towerbank_ICB/Internal/BugTasks"
         }
       }
     },
@@ -91,8 +91,8 @@
       "isActive": true,
       "areaMappings": {
         "Bug": {
-          "sourceArea": "Client\\Bugs",
-          "targetArea": "PR_FirstBank_ICB\\Internal\\BugTasks"
+          "sourceArea": "Client/Bugs",
+          "targetArea": "PR_FirstBank_ICB/Internal/BugTasks"
         }
       }
     },
@@ -101,8 +101,8 @@
       "isActive": true,
       "areaMappings": {
         "Bug": {
-          "sourceArea": "Client\\Bugs",
-          "targetArea": "TT_RepublicBank_ICB\\Internal\\BugTasks"
+          "sourceArea": "Client/Bugs",
+          "targetArea": "TT_RepublicBank_ICB/Internal/BugTasks"
         }
       }
     },
@@ -111,8 +111,8 @@
       "isActive": true,
       "areaMappings": {
         "Bug": {
-          "sourceArea": "Client\\Bugs",
-          "targetArea": "UY_Sistemas_Internos\\Internal\\BugTasks"
+          "sourceArea": "Client/Bugs",
+          "targetArea": "UY_Sistemas_Internos/Internal/BugTasks"
         }
       }
     },
@@ -121,8 +121,8 @@
       "isActive": true,
       "areaMappings": {
         "Bug": {
-          "sourceArea": "Client\\Bugs",
-          "targetArea": "Test Extension\\Internal\\BugTasks"
+          "sourceArea": "Client/Bugs",
+          "targetArea": "Test Extension/Internal/BugTasks"
         }
       }
     }
