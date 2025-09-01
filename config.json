@@ -115,6 +115,16 @@
           "targetArea": "UY_Sistemas_Internos\\Internal\\BugTasks"
         }
       }
+    },
+    {
+      "projectName": "Test Extension",
+      "isActive": true,
+      "areaMappings": {
+        "Bug": {
+          "sourceArea": "Client\\Bugs",
+          "targetArea": "Test Extension\\Internal\\BugTasks"
+        }
+      }
     }
   ]
 } 
